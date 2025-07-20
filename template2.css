@@ -7,14 +7,14 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 
 /* FONT (From Google Fonts) */
 
-@import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
 
 /* BACKGROUND */
 
 body {
 	background: url('https://media.discordapp.net/attachments/1389627864462266510/1396542341359079524/blue-galaxy-background-okucfwr3hfj0dcl6.png?ex=687e76e8&is=687d2568&hm=f082630075286d7d2f5bdce154bab86fcb70a9bbb802ee3eaf4f346ba94ec5b8&=&format=webp&quality=lossless&width=1489&height=838') center center fixed;
 	background-size: 100%;
-	font-family: 'FONT NAME';
+	font-family: 'Knewave';
 	color: #2e2a2b
 }
 
@@ -37,7 +37,7 @@ body {
 /* TOPBAR ("Welcome back, ___") */
 
 .topbar {
-	background: rgba(2, 40, 89, 0.5);
+	background: rgba(2, 40, 89, 0.75);
 	border: none;
 	border-top: none;
 	color: #d7e9ff;
@@ -47,7 +47,7 @@ body {
 /* NAVBAR (Den/Crossroads/Etc.) */
 
 .navbar {
-	background: rgba(2, 40, 89, 0.5);
+	background: rgba(2, 40, 89, 0.75);
 	border-bottom: none;
 	color: #d7e9ff;
 	border-radius: 0px
