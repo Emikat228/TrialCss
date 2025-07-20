@@ -551,7 +551,7 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 /* CAVE / MOUND IMAGES */
 
 div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('IMAGE URL') !important
+	content: url('https://i.ibb.co/rGx2tcwy/Space-2-1.png') !important
 }
 
 a[href$="CAVE ID"]>div.cave-grid>img {
@@ -591,3 +591,5 @@ a[href$="unsorted.php?id=PLAYER ID"]>div.cave-grid>img /* Unsorted */ {
 			width: 790px;
 		}
 	}
+
+<style type="text/css">* {cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1058.ani), url(https://cur.cursors-4u.net/cursors/cur-11/cur1058.png), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2012/03/03/blue-fire-pointer.html" target="_blank" title="Blue Fire Pointer"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Blue Fire Pointer" style="position:absolute; top: 0px; right: 0px;" /></a>
