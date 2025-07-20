@@ -208,24 +208,24 @@ h3 {
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
 	background: rgba(5, 91, 166, 0.5) !important;
-        color: #000000 !important;
+        color: #07B0f2 !important;
 	border: none !important
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
 	background: rgba(3, 63, 116, 0.5) !important;
-        color: #000000 !important;
+        color: #07B0f2 !important;
 	border: none !important
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
-	background: rgba(5, 91, 166, 0.5) !important;
-        color: #000000 !important;
+	background: rgba(7, 98, 217, 0.5) !important;
+        color: #07B0f2 !important;
 	border: none !important
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
-	color: #000000 !important;
+	color: #07B0f2 !important;
 }
 
 div#chatMessageContainer {
@@ -256,8 +256,8 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 .top,
 .bottom,
 th {
-	background: rgba(3, 63, 116, 0.5) !important;
-	color: #000000 !important;
+	background: #022859 !important;
+	color: #07B0f2 !important;
 	border-radius: 0px
 }
 
@@ -268,8 +268,8 @@ td.bottom a {
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 
 .inner-table .left {
-	background: rgba(155, 226, 242, 0.6) !important;
-        color: #2e2a2b;
+	background: rgba(7, 98, 242, 0.75) !important;
+        color: #D7E9FF;
 	border-radius: 0px
 }
 
@@ -277,7 +277,7 @@ td.bottom a {
 /* Color behind the number of all of the things above */
 
 .inner-table .right {
-	background: none;
+	background: rgba(7, 98, 242, 0.25) !important;
 	border-radius: 0px !important
 }
 
@@ -294,7 +294,7 @@ td.right {
 
 .cave-grid,
 .mound-grid {
-	background: rgba(2, 40, 89, 0.5);
+	background: #02000D;
 	border: none !important;
 	border-radius: 0px !important
 }
@@ -312,7 +312,7 @@ td.right {
 
 .feature,
 div.left {
-	background: rgba(2, 40, 89, 0.5);
+	background: rgba(2, 0, 13, 0.75);
 	border: none;
 	border-radius: 0px !important
 }
@@ -320,7 +320,7 @@ div.left {
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 
 .table .left {
-	background: rgba(1, 1, 1, 0.5);
+	background: rgba(5, 91, 166, 0.5);
         border-radius: 0px
 }
 
