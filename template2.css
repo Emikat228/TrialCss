@@ -7,14 +7,14 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 
 /* FONT (From Google Fonts) */
 
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap');
 
 /* BACKGROUND */
 
 body {
-	background: url('https://ibb.co/WNyFdtmn') center center fixed;
+	background: url('https://i.ibb.co/cKFtpL4J/Space1.png') center center fixed;
 	background-size: 100%;
-	font-family: "DynaPuff", system-ui;
+	font-family:  'Rubik Maps', system-ui;
 	color: #000000
 }
 
@@ -146,7 +146,7 @@ h1 {
 	color: #07B0F2;
 	font-size: 90px;
 	text-align: center;
-        font-family: 'Knewave'
+        font-family:  'Rubik Maps', system-ui
 }
 
 
