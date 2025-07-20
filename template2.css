@@ -16,7 +16,7 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 body {
 	background: url('https://media.discordapp.net/attachments/1389627864462266510/1396542341359079524/blue-galaxy-background-okucfwr3hfj0dcl6.png?ex=687e76e8&is=687d2568&hm=f082630075286d7d2f5bdce154bab86fcb70a9bbb802ee3eaf4f346ba94ec5b8&=&format=webp&quality=lossless&width=1489&height=838') center center fixed;
 	background-size: 100%;
-	font-family: 'Knewave';
+	font-family: '';
 	color: #2e2a2b
 }
 
@@ -39,7 +39,7 @@ body {
 /* TOPBAR ("Welcome back, ___") */
 
 .topbar {
-	background: rgba(2, 40, 89, 0.75);
+	background: #022859;
 	border: none;
 	border-top: none;
 	color: #d7e9ff;
@@ -49,31 +49,31 @@ body {
 /* NAVBAR (Den/Crossroads/Etc.) */
 
 .navbar {
-	background: rgba(2, 40, 89, 0.75);
+	background: rgba(2, 40, 89, 0.95);
 	border-bottom: none;
-	color: #d7e9ff;
+	color: #07B0F2;
 	border-radius: 0px
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
 
 .navbar li a {
-	color: #d7e9ff !important
+	color: #07B0F2 !important
 }
 
 /* NAVBAR BUTTON HOVER */
 
 .navbar li a:hover {
-	background: rgba(2, 40, 89, 0.5) !important;
+	background: #022859 !important;
 	border-bottom: none;
-	color: #d7e9ff !important;
+	color: #07B0F2 !important;
 	border-radius: 0px
 }
 
 /* BREADCRUMB (Home / Den) */
 
 .breadcrumb {
-	background: rgba(2, 40, 89, 0.5) !important;
+	background: rgba(2, 40, 89, 0.95) !important;
         border: none;
 	border-radius: 0px
 }
@@ -81,14 +81,14 @@ body {
 /* BREADCRUMB TEXT */
 
 .breadcrumb .active {
-	color: #000000
+	color: #07B0F2
 }
 
 /* CSS CREDIT */
 
 .breadcrumb::after {
         content: "Template by Katie (#106445)";
-        color: #000000;
+        color: #07B0F2;
         position: absolute;
         right: 13%; /* (This may need adjusting) */
         z-index: 100
@@ -115,7 +115,7 @@ body {
 /* BOOKMARK BUTTON */
 
 input.floatright, input.floatright:hover {
-	background: rgba(2, 40, 89, 0.5) !important;
+	background: rgba(2, 40, 89, 0.95) !important;
         border: none !important;
 	border-radius: 0px;
 	color: #000000 !important;    
@@ -124,7 +124,7 @@ input.floatright, input.floatright:hover {
 /* SWITCH ACCOUNT BUTTON */
 
 button.button, button.button:hover {
-	background: rgba(2, 40, 89, 0.5);
+	background: rgba(2, 40, 89, 0.95);
         border: none !important;
 	border-radius: 0px;
         text-shadow: none !important;
@@ -136,7 +136,7 @@ button.button, button.button:hover {
 .alert,
 .alert-warning,
 .alert-danger {
-	background: rgba(5, 91, 166, 0.5) !important;
+	background: rgba(5, 91, 166, 0.75) !important;
 	border: none;
 	color: #000000;
 	border-radius: 0px !important
@@ -145,17 +145,17 @@ button.button, button.button:hover {
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: #000000;
+	color: #07B0F2;
 	font-size: 90px;
 	text-align: center;
-        font-family: 'FONT NAME'
+        font-family: 'Knewave'
 }
 
 
 /* MEDIUM HEADER */
 
 h2 {
-	color: #000000;
+	color: #07B0F2;
 	font-size: 24px;
 	text-align: center
 }
@@ -173,7 +173,7 @@ h3 {
 .sidebar h3 {
 	color: #000000 !important;
         font-size: 26px !important;
-        font-family: 'FONT NAME'
+        font-family: 'Knewave'
 }
 
 /* RIGHT SIDE PANELS */
@@ -187,14 +187,14 @@ h3 {
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: rgba(2, 40, 89, 0.5);
+	background: rgba(2, 40, 89, 0.75);
 	color: #000000 !important;
 	border-radius: 0px !important
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-	background: rgba(2, 40, 89, 0.5);
+	background: #055BA6;
 	color: #000000 !important;
 	border-radius: 0px !important
 }
