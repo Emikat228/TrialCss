@@ -7,17 +7,15 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 
 /* FONT (From Google Fonts) */
 
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
-</style>
 
 /* BACKGROUND */
 
 body {
-	background: url('https://i.ibb.co/cKFtpL4J/Space1.png') center center fixed;
+	background: url('https://ibb.co/WNyFdtmn') center center fixed;
 	background-size: 100%;
 	font-family: "Knewave", system-ui;
-	color: #2e2a2b
+	color: #000000
 }
 
 /* MAIN PANEL */
@@ -591,3 +589,4 @@ a[href$="unsorted.php?id=PLAYER ID"]>div.cave-grid>img /* Unsorted */ {
 			width: 790px;
 		}
 	}
+cursor: url('/YOUR_PATH/cursor.cur'), auto;
