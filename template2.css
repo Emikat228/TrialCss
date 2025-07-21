@@ -241,8 +241,8 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 /*Comment Box by Hok-Z #41458 / #170947*/
 /*-------------------------*/
 #commentBox {
-background: lime;
-border: 1px solid white !important;
+background: rgba(5, 91, 166, 0.5);
+border: 2px #055BA6 !important;
 height: 280px !important;
 margin-top: 40px;
 overflow: auto !important;
@@ -251,33 +251,33 @@ border-top-right-radius: 0px !important;
 }
 
 .comment {
-background: darkblue !important;
-border-bottom: 1px solid cyan;
+background: rgba(10, 33, 64, 0.50) !important;
+border-bottom: 1px #000000;
 font-weight: bold;
-color: white;
+color: #D7E9FF;
 }
 
-.comment a {color: gold;}
+.comment a {color: #D7E9FF;}
 
-.comment .text-muted {color: red;}
+.comment .text-muted {color: #D7E9FF;}
 
 #makeComment {
 background: navy !important;
-border: 2px red solid;
+border: 2px #02000D;
 border-radius: 10px;
 }
 
 #comment {
-background: skyblue !important;
-color: blue !important;
+background: rgba(2, 40, 89, 0.5) !important;
+color: #D7E9FF !important;
 }
 
 input[type="button"].bad {
-background: #d02323c2 !important;
+background: #055BA6 !important;
 }
 
 input#postComment {
-background: #72ffe3c2 !important;
+background: #0762D9 !important;
 color: black;
 }
 
