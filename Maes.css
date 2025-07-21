@@ -7,14 +7,14 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 
 /* FONT (From Google Fonts) */
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
 
 /* BACKGROUND */
 
 body {
-	background: url('https://i.ibb.co/cKFtpL4J/Space1.png') center center fixed;
+	background: url('https://i.ibb.co/TDf7y1pm/Pink-Anime-Eye-ezgif-com-resize.gif') center center fixed;
 	background-size: 100%;
-	font-family:  'Rubik Maps', system-ui;
+	font-family:  'Covered By Your Grace', cursive;
 	color: #000000
 }
 
@@ -22,7 +22,7 @@ body {
 
 /* RIGHT SIDE */
 .container.main {
-	background: rgba(2, 40, 89, 0.5);
+	background: rgba(0, 0 , 0, 0.5);
 	border: none;
 	box-shadow: none;
 	border-radius: 0px
@@ -37,41 +37,41 @@ body {
 /* TOPBAR ("Welcome back, ___") */
 
 .topbar {
-	background: #022859;
+	background: rgba(0, 0 , 0, 0.5);
 	border: none;
 	border-top: none;
-	color: #d7e9ff;
+	color: #FF0066;
 	border-radius: 0px;
 }
 
 /* NAVBAR (Den/Crossroads/Etc.) */
 
 .navbar {
-	background: rgba(2, 40, 89, 0.95);
+	background: rgba(0, 0 , 0, 0.5);
 	border-bottom: none;
-	color: #07B0F2;
+	color: #FF0066;
 	border-radius: 0px
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
 
 .navbar li a {
-	color: #07B0F2 !important
+	color: #FF0066 !important
 }
 
 /* NAVBAR BUTTON HOVER */
 
 .navbar li a:hover {
-	background: #022859 !important;
+	background: rgba(255, 0 , 102, 0.5) !important;
 	border-bottom: none;
-	color: #07B0F2 !important;
+	color: #000000 !important;
 	border-radius: 0px
 }
 
 /* BREADCRUMB (Home / Den) */
 
 .breadcrumb {
-	background: rgba(2, 40, 89, 0.95) !important;
+	background: rgba(0, 0 , 0, 0.5) !important;
         border: none;
 	border-radius: 0px
 }
@@ -79,14 +79,14 @@ body {
 /* BREADCRUMB TEXT */
 
 .breadcrumb .active {
-	color: #07B0F2
+	color: #FF0066
 }
 
 /* CSS CREDIT */
 
 .breadcrumb::after {
         content: "Template by Katie (#106445)";
-        color: #07B0F2;
+        color: #FF0066;
         position: absolute;
         right: 13%; /* (This may need adjusting) */
         z-index: 100
@@ -113,7 +113,7 @@ body {
 /* BOOKMARK BUTTON */
 
 input.floatright, input.floatright:hover {
-	background: rgba(2, 40, 89, 0.95) !important;
+	background: #FF0066 !important;
         border: none !important;
 	border-radius: 0px;
 	color: #000000 !important;    
@@ -122,7 +122,7 @@ input.floatright, input.floatright:hover {
 /* SWITCH ACCOUNT BUTTON */
 
 button.button, button.button:hover {
-	background: rgba(2, 40, 89, 0.95);
+	background: #FF0066;
         border: none !important;
 	border-radius: 0px;
         text-shadow: none !important;
@@ -134,26 +134,26 @@ button.button, button.button:hover {
 .alert,
 .alert-warning,
 .alert-danger {
-	background: rgba(5, 91, 166, 0.75) !important;
+	background: rgba(0, 0 , 0, 0.5) !important;
 	border: none;
-	color: #07B0f2;
+	color: #FF0066;
 	border-radius: 0px !important
 }
 
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: #D7E9FF;
+	color: #FF0066;
 	font-size: 90px;
 	text-align: center;
-        font-family:  'Rubik Maps', system-ui
+        font-family: 'Covered By Your Grace', cursive
 }
 
 
 /* MEDIUM HEADER */
 
 h2 {
-	color: #07B0F2;
+	color: rgba(0, 0 , 0, 0.5);
 	font-size: 24px;
 	text-align: center
 }
@@ -162,68 +162,68 @@ h2 {
 /* SMALL HEADER */
 
 h3 {
-	color: #D7E9FF !important;
+	color: rgba(0, 0 , 0, 0.5) !important;
 	font-size: 14px !important
 }
 
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: #D7E9FF !important;
+	color: rgba(0, 0 , 0, 0.5) !important;
         font-size: 26px !important;
-        font-family: 'Knewave'
+        font-family: 'Covered By Your Grace', cursive
 }
 
 /* RIGHT SIDE PANELS */
 .panel {
-	background: rgba(2, 40, 89, 0.5) !important;
+	background: rgba(0, 0 , 0, 0.5) !important;
 	box-shadow: none !important;
 	border: none !important;
-	color: #D7E9FF !important;
+	color: #FF0066 !important;
 	border-radius: 0px
 }
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: rgba(2, 40, 89, 0.75);
-	color: #D7E9FF !important;
+	background: rgba(0, 0 , 0, 0.5);
+	color: #FFFFFF !important;
 	border-radius: 0px !important
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-	background: #055BA6;
-	color: #D7E9FF !important;
+	background: #8C0343;
+	color: #FFFFFF !important;
 	border-radius: 0px !important
 }
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #D7E9FF !important
+	color: #FFFFFF  !important
 }
 
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-	background: rgba(5, 91, 166, 0.5) !important;
-        color: #07B0f2 !important;
+	background: rgba(0, 0 , 0, 0.5) !important;
+        color: #FFFFFF !important;
 	border: none !important
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
-	background: rgba(3, 63, 116, 0.5) !important;
-        color: #07B0f2 !important;
+	background: rgba(0, 0 , 0, 0.5) !important;
+        color: #FFFFFF !important;
 	border: none !important
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
-	background: rgba(7, 98, 217, 0.5) !important;
-        color: #07B0f2 !important;
+	background: rgba(0, 0 , 0, 0.5) !important;
+        color: #FFFFFF !important;
 	border: none !important
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
-	color: #07B0f2 !important;
+	color: #FFFFFF !important;
 }
 
 div#chatMessageContainer {
@@ -231,8 +231,8 @@ div#chatMessageContainer {
 }
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
-	background: rgba(10, 147, 201, 0.5) !important;
-        color: #D7E9FF !important;
+	background: rgba(0, 0 , 0, 0.5) !important;
+        color: #FF0066 !important;
 	border: none !important
 }
 
@@ -241,7 +241,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 /*Comment Box by Hok-Z #41458 / #170947*/
 /*-------------------------*/
 #commentBox {
-background: rgba(5, 91, 166, 0.5);
+background: rgba(0, 0 , 0, 0.5);
 border: 2px #055BA6 !important;
 height: 280px !important;
 margin-top: 40px;
@@ -251,33 +251,33 @@ border-top-right-radius: 0px !important;
 }
 
 .comment {
-background: rgba(10, 33, 64, 0.50) !important;
+background: rgba(0, 0 , 0, 0.5) !important;
 border-bottom: 1px #000000;
 font-weight: bold;
-color: #D7E9FF;
+color: #FFFFFF;
 }
 
-.comment a {color: #D7E9FF;}
+.comment a {color: #FFFFFF;}
 
-.comment .text-muted {color: #D7E9FF;}
+.comment .text-muted {color: #FFFFFF;}
 
 #makeComment {
-background: #02000D !important;
-border: 2px #02000D;
+background: rgba(0, 0 , 0, 0.5) !important;
+border: 2px #FFFFFF;
 border-radius: 10px;
 }
 
 #comment {
-background: rgba(2, 40, 89, 0.5) !important;
-color: #D7E9FF !important;
+background: rgba(0, 0 , 0, 0.5) !important;
+color: #FFFFFF !important;
 }
 
 input[type="button"].bad {
-background: #055BA6 !important;
+background: #8C0343 !important;
 }
 
 input#postComment {
-background: #0762D9 !important;
+background: #8C0343 !important;
 color: black;
 }
 
@@ -300,8 +300,8 @@ color: black;
 .top,
 .bottom,
 th {
-	background: #022859 !important;
-	color: #07B0f2 !important;
+	background: rgba(0, 0 , 0, 0.5) !important;
+	color: #FF0066 !important;
 	border-radius: 0px
 }
 
@@ -312,8 +312,8 @@ td.bottom a {
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 
 .inner-table .left {
-	background: rgba(7, 98, 242, 0.75) !important;
-        color: #D7E9FF;
+	background: rgba(0, 0 , 0, 0.5) !important;
+        color: #FFFFFF;
 	border-radius: 0px
 }
 
@@ -321,7 +321,7 @@ td.bottom a {
 /* Color behind the number of all of the things above */
 
 .inner-table .right {
-	background: rgba(7, 98, 242, 0.25) !important;
+	background: rgba(0, 0 , 0, 0.5) !important;
 	border-radius: 0px !important
 }
 
@@ -338,7 +338,7 @@ td.right {
 
 .cave-grid,
 .mound-grid {
-	background: rgba(10, 33, 64, 0.75) !important;
+	background: rgba(0, 0 , 0, 0.5) !important;
 	border: none !important;
 	border-radius: 0px !important
 }
@@ -346,9 +346,9 @@ td.right {
 /* FEED ALL, PLAY ALL */
 
 .feature {
-	background: rgba(2, 40, 89, 0.5) !important;
-	color: #000000 !important;
-	border: 1px solid #000000 !important;
+	background: rgba(0, 0 , 0, 0.5) !important;
+	color: #FFFFFF !important;
+	border: 1px solid #FFFFFF !important;
 	border-radius: 0px !important
 }
 
@@ -356,7 +356,7 @@ td.right {
 
 .feature,
 div.left {
-	background: rgba(10, 33, 64, 0.75);
+	background: rgba(0, 0 , 0, 0.5);
 	border: none;
 	border-radius: 0px !important
 }
@@ -364,7 +364,7 @@ div.left {
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 
 .table .left {
-	background: rgba(5, 91, 166, 0.5);
+	background: rgba(0, 0 , 0, 0.5);
         border-radius: 0px
 }
 
@@ -373,7 +373,7 @@ div.left {
 input,
 select,
 textarea {
-	background: rgba(2, 40, 89, 0.5) !important;
+	background: rgba(0, 0 , 0, 0.5) !important;
 	border: none !important;
 	border-radius: 0px !important;
 	color: #000000 !important;
@@ -384,13 +384,13 @@ textarea {
 /* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
 
 .item-header {
-	background: rgba(2, 40, 89, 0.5) !important;
+	background: rgba(0, 0 , 0, 0.5) !important;
 	color: #000000  !important;
 	border-radius: 0px !important;
 }
 
 .item {
-	background: rgba(1, 1, 1, 0.5) !important;
+	background: rgba(0, 0 , 0, 0.5) !important;
 	border: none !important;
 	border-radius: 0px !important
 }
@@ -416,13 +416,13 @@ div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.containe
 
 a:link,
 a:visited {
-	color: #ffffff !important
+	color: #FF0066 !important
 }
 
 /* LINK HOVER COLOR */
 
 a:hover {
-	color: #ffffff !important
+	color: #8C0343 !important
 }
 
 
@@ -589,35 +589,35 @@ table#player img {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('https://i.ibb.co/3mRNPvhZ/Space-Lioden-Logo.png')
+	content: url('https://i.ibb.co/kV7QBnwy/ezgif-com-resize.gif')
 }
 
 /* CAVE / MOUND IMAGES */
 
 div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('https://i.ibb.co/KjRrNqYQ/space9-ezgif-com-resize.webp') !important
+	content: url('https://i.ibb.co/35Kz0Hvm/bc31c7c26ceafe84aca0ae87374cb71b-1.webp') !important
 }
 
-a[href$="482237"]>div.cave-grid>img {
-	content: url('https://i.ibb.co/5yhHL0y/Space4-ezgif-com-resize.webp') !important
+a[href$="488633"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/fdzTCT9W/ezgif-com-resize-1.gif') !important
 }
 
-a[href$="486032"]>div.cave-grid>img {
-	content: url('https://i.ibb.co/Kp9hsDtw/space3-ezgif-com-resize.webp') !important
+a[href$="480983"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/XfRPMWjB/e45cfa2132b1f889efdf71e2a3e44410-ezgif-com-resize.gif') !important
 }
 
-a[href$="lionoverview.php?id=540409"]>div.cave-grid>img /* Pride Overview */ {
-	content: url('https://i.ibb.co/vvL1B35p/space11-ezgif-com-resize.webp') !important
+a[href$="lionoverview.php?id=539154"]>div.cave-grid>img /* Pride Overview */ {
+	content: url('https://i.ibb.co/8DyBLB2T/057c205b996dbe6ac7bab28702d7cdbd-1.jpg') !important
 }
 
-a[href$="unsorted.php?id=540409"]>div.cave-grid>img /* Unsorted */ {
-	content: url('https://i.ibb.co/3mQfFp0B/space6-ezgif-com-resize.webp') !important
+a[href$="unsorted.php?id=539154"]>div.cave-grid>img /* Unsorted */ {
+	content: url('https://i.ibb.co/7JjTLtDr/59b8c8622c076c5dc7bac0dd591c712c-ezgif-com-resize.gif') !important
 }
 
 img[src$="caveunused.jpg"] {
-content: url("https://i.ibb.co/cSVfqs5X/space7-ezgif-com-resize.webp") !important;
+content: url('https://i.ibb.co/RkhtJ74v/109085-ezgif-com-crop.gif') !important;
 }
-
+/*STOPPING HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 img[src$="default.png"] {
 content: url("https://static.lioden.com/images/dynamic/backgrounds/swirlingsky.png"); }
 
