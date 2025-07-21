@@ -262,7 +262,7 @@ color: #D7E9FF;
 .comment .text-muted {color: #D7E9FF;}
 
 #makeComment {
-background: navy !important;
+background: #02000D !important;
 border: 2px #02000D;
 border-radius: 10px;
 }
@@ -589,7 +589,7 @@ table#player img {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('LOGO REPLACER URL')
+	content: url('https://i.ibb.co/3mRNPvhZ/Space-Lioden-Logo.png')
 }
 
 /* CAVE / MOUND IMAGES */
@@ -647,11 +647,11 @@ content: url("https://static.lioden.com/images/dynamic/backgrounds/swirlingsky.p
 		}
 	}
 img[src$="icon-beetle-gold.png"] {
-content: url("https://i.ibb.co/20nkcLmm/pngegg-1.png") !important;
+content: url("https://i.ibb.co/7JR0FXwm/Gold-Stars.png") !important;
 width: 20px !important;
 }
 
 img[src$="icon-beetle-silver.png"] {
-content: url("https://i.ibb.co/HpkynGz2/imgonline-com-ua-Replace-Color-t-TDk-DE4-Sja.jpg") !important;
+content: url("https://i.ibb.co/v6pnM24S/Silver-Stars.png") !important;
 width: 20px !important;
 }
