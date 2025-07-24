@@ -7,15 +7,15 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 
 /* FONT (From Google Fonts) */
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* BACKGROUND */
 
 body {
 	background: url('https://i.ibb.co/cKFtpL4J/Space1.png') center center fixed;
 	background-size: 100%;
-	font-family:  'Rubik Maps', system-ui;
-	color: #000000
+	font-family:  'Sour Gummy', sans-serif;
+	color: #D7E9FF
 }
 
 /* MAIN PANEL */
@@ -23,9 +23,9 @@ body {
 /* RIGHT SIDE */
 .container.main {
 	background: rgba(2, 40, 89, 0.5);
-	border: none;
+	border: 0 ridge !important;
 	box-shadow: none;
-	border-radius: 0px
+	border-radius: 10px !important;
 }
 
 /* LEFT SIDE */
@@ -38,10 +38,10 @@ body {
 
 .topbar {
 	background: #022859;
-	border: none;
+	border: 0 ridge !important;
 	border-top: none;
-	color: #d7e9ff;
-	border-radius: 0px;
+	color: #D7E9FF;
+	border-radius: 10px !important;
 }
 
 /* NAVBAR (Den/Crossroads/Etc.) */
@@ -50,7 +50,7 @@ body {
 	background: rgba(2, 40, 89, 0.95);
 	border-bottom: none;
 	color: #07B0F2;
-	border-radius: 0px
+	border-radius: 10px !important;
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
@@ -65,15 +65,15 @@ body {
 	background: #022859 !important;
 	border-bottom: none;
 	color: #07B0F2 !important;
-	border-radius: 0px
+	border-radius: 10px !important;
 }
 
 /* BREADCRUMB (Home / Den) */
 
 .breadcrumb {
 	background: rgba(2, 40, 89, 0.95) !important;
-        border: none;
-	border-radius: 0px
+        border: 0 ridge !important;
+	border-radius: 10px !important;
 }
 
 /* BREADCRUMB TEXT */
@@ -114,17 +114,17 @@ body {
 
 input.floatright, input.floatright:hover {
 	background: rgba(2, 40, 89, 0.95) !important;
-        border: none !important;
-	border-radius: 0px;
-	color: #000000 !important;    
+        border: 0 ridge !important;
+	border-radius: 10px !important;
+	color: #D7E9FF !important;    
 }
 
 /* SWITCH ACCOUNT BUTTON */
 
 button.button, button.button:hover {
 	background: rgba(2, 40, 89, 0.95);
-        border: none !important;
-	border-radius: 0px;
+        border: 0 ridge !important;
+	border-radius: 10px !important;
         text-shadow: none !important;
 	color: #000000 !important
 }
@@ -135,18 +135,18 @@ button.button, button.button:hover {
 .alert-warning,
 .alert-danger {
 	background: rgba(5, 91, 166, 0.75) !important;
-	border: none;
+	border: 0 ridge !important;
 	color: #07B0f2;
-	border-radius: 0px !important
+	border-radius: 10px !important;
 }
 
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
 	color: #D7E9FF;
-	font-size: 90px;
+	font-size: 50px;
 	text-align: center;
-        font-family:  'Rubik Maps', system-ui
+        font-family:  'Sour Gummy', sans-serif;
 }
 
 
@@ -171,30 +171,30 @@ h3 {
 .sidebar h3 {
 	color: #D7E9FF !important;
         font-size: 26px !important;
-        font-family: 'Knewave'
+        font-family: 'Sour Gummy', sans-serif;
 }
 
 /* RIGHT SIDE PANELS */
 .panel {
 	background: rgba(2, 40, 89, 0.5) !important;
 	box-shadow: none !important;
-	border: none !important;
+	border: 0 ridge !important;
 	color: #D7E9FF !important;
-	border-radius: 0px
+	border-radius: 10px !important;
 }
 
 /* ENERGY BAR BACKGROUND */
 .progress {
 	background: rgba(2, 40, 89, 0.75);
 	color: #D7E9FF !important;
-	border-radius: 0px !important
+	border-radius: 10px !important;
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
 	background: #055BA6;
 	color: #D7E9FF !important;
-	border-radius: 0px !important
+	border-radius: 10px !important
 }
 
 /* ENERGY BAR TEXT */
@@ -207,7 +207,7 @@ h3 {
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
 	background: rgba(5, 91, 166, 0.5) !important;
         color: #07B0f2 !important;
-	border: none !important
+	border: 0 ridge !important;
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
@@ -227,7 +227,8 @@ h3 {
 }
 
 div#chatMessageContainer {
-	border: none !important;
+	border: 0 ridge !important;
+	border-radius: 10px !important;
 }
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
@@ -246,8 +247,8 @@ border: 2px #055BA6 !important;
 height: 280px !important;
 margin-top: 40px;
 overflow: auto !important;
-border-top-left-radius: 0px !important;
-border-top-right-radius: 0px !important;
+border-top-left-radius: 10px !important;
+border-top-right-radius: 10px !important;
 }
 
 .comment {
@@ -289,9 +290,9 @@ color: black;
 
 .table {
 	background: rgba(5, 91, 166, 0.5);
-	border: none !important;
+	border: 0 ridge !important;
 	border-collapse: separate;
-	border-radius: 0px
+	border-radius: 10px !important;
 }
 
 
@@ -302,7 +303,8 @@ color: black;
 th {
 	background: #022859 !important;
 	color: #07B0f2 !important;
-	border-radius: 0px
+	border: 0 ridge !important;
+	border-radius: 10px !important
 }
 
 td.bottom a {
@@ -314,7 +316,8 @@ td.bottom a {
 .inner-table .left {
 	background: rgba(7, 98, 242, 0.75) !important;
         color: #D7E9FF;
-	border-radius: 0px
+	border: 0 ridge !important;
+	border-radius: 10px !important
 }
 
 
@@ -322,11 +325,12 @@ td.bottom a {
 
 .inner-table .right {
 	background: rgba(7, 98, 242, 0.25) !important;
-	border-radius: 0px !important
+	border: 0 ridge !important;
+	border-radius: 10px !important
 }
 
 td.right {
-	border-radius: 0px !important
+	border-radius: 10px !important
 }
 
 /* IGNORE */
@@ -339,8 +343,8 @@ td.right {
 .cave-grid,
 .mound-grid {
 	background: rgba(10, 33, 64, 0.75) !important;
-	border: none !important;
-	border-radius: 0px !important
+	border: 0 ridge !important;
+	border-radius: 10px !important
 }
 
 /* FEED ALL, PLAY ALL */
@@ -349,7 +353,7 @@ td.right {
 	background: rgba(2, 40, 89, 0.5) !important;
 	color: #000000 !important;
 	border: 1px solid #000000 !important;
-	border-radius: 0px !important
+	border-radius: 10px !important
 }
 
 /* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
@@ -357,15 +361,15 @@ td.right {
 .feature,
 div.left {
 	background: rgba(10, 33, 64, 0.75);
-	border: none;
-	border-radius: 0px !important
+	border: 0 ridge !important;
+	border-radius: 10px !important
 }
 
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 
 .table .left {
 	background: rgba(5, 91, 166, 0.5);
-        border-radius: 0px
+        border-radius: 10px !important
 }
 
 /* Color behind the content of the elements listed above */
@@ -375,7 +379,7 @@ select,
 textarea {
 	background: rgba(2, 40, 89, 0.5) !important;
 	border: none !important;
-	border-radius: 0px !important;
+	border-radius: 10px !important;
 	color: #000000 !important;
 	box-shadow: none !important;
 	text-shadow: none !important
@@ -385,14 +389,14 @@ textarea {
 
 .item-header {
 	background: rgba(2, 40, 89, 0.5) !important;
-	color: #000000  !important;
-	border-radius: 0px !important;
+	color: #D7E9FF  !important;
+	border-radius: 10px !important;
 }
 
 .item {
 	background: rgba(1, 1, 1, 0.5) !important;
 	border: none !important;
-	border-radius: 0px !important
+	border-radius: 10px !important
 }
 
 /* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
@@ -441,10 +445,10 @@ a:hover {
 .smallbox {
 	float: left;
 	background: rgba(1, 1, 1, 0.5);
-	color: #000000;
+	color: #D7E9FF;
 	padding: 10px;
 	border: none;
-	border-radius: 0px;
+	border-radius: 10px !important;
 	margin: 10px;
 	height: 150px;
 	width: 28.4%;
@@ -454,10 +458,10 @@ a:hover {
 .mediumbox {
 	float: left;
 	background: rgba(1, 1, 1, 0.5);
-	color: #000000;
+	color: #D7E9FF;
 	padding: 10px;
 	border: none;
-	border-radius: 0px;
+	border-radius: 10px !important;
 	margin: 10px;
 	height: 150px;
 	width: 43.8%;
@@ -467,10 +471,10 @@ a:hover {
 .largebox {
 	float: left;
 	background: rgba(1, 1, 1, 0.5);
-	color: #000000;
+	color: #D7E9FF;
 	padding: 10px;
 	border: none;
-	border-radius: 0px;
+	border-radius: 10px !important;
 	margin: 10px;
 	height: 150px;
 	width: 90%;
@@ -482,10 +486,10 @@ a:hover {
 .smallhoverbox {
 	float: left;
 	background: rgba(1, 1, 1, 0.5);
-	color: #000000;
+	color: #D7E9FF;
 	padding: 10px;
 	border: none;
-	border-radius: 0px;
+	border-radius: 10px !important;
 	margin: 10px;
 	height: 50px;
 	width: 28.4%;
@@ -504,7 +508,7 @@ a:hover {
 	color: #000000;
 	padding: 10px;
 	border: none;
-	border-radius: 0px;
+	border-radius: 10px !important;
 	margin: 10px;
 	height: 50px;
 	width: 43.8%;
@@ -523,7 +527,7 @@ a:hover {
 	color: #000000;
 	padding: 10px;
 	border: none;
-	border-radius: 0px;
+	border-radius: 10px !important;
 	margin: 10px;
 	height: 150px;
 	width: 90%;
@@ -572,12 +576,12 @@ table#player img {
 
 
 /* CIRCULAR LION AND USER AVATAR */
-
-div#lion_image {
-	border-radius: 50% !important;
-	overflow: hidden;
-	margin-top: 15px; /* May need adjusting */
-	margin-left: 12px /* May need adjusting */
+/*code by hok-z #170947*/
+#lion_image:after {
+content:url("https://i.ibb.co/VWMGG8V8/picmix-com-1898716-ezgif-com-resize-2.gif");
+position:absolute;
+    left: 10px;
+    top: 10px;
 }
 
 table#player img {
@@ -655,3 +659,5 @@ img[src$="icon-beetle-silver.png"] {
 content: url("https://i.ibb.co/v6pnM24S/Silver-Stars.png") !important;
 width: 20px !important;
 }
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/cursors/cur-3/cur289.ani), url(https://cur.cursors-4u.net/cursors/cur-3/cur289.png), auto !important;} /* End https://www.cursors-4u.com */
