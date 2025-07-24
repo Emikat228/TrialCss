@@ -23,9 +23,9 @@ body {
 /* RIGHT SIDE */
 .container.main {
 	background: rgba(XXXXXXXXXXX);
-	border: none;
+	border: 0 ridge !important;
 	box-shadow: none;
-	border-radius: 0px
+	border-radius: 10px !important;
 }
 
 /* LEFT SIDE */
@@ -38,10 +38,10 @@ body {
 
 .topbar {
 	background: #XXXXXXXXXXX;
-	border: none;
+	border: 0 ridge !important;
 	border-top: none;
 	color: #d7e9ff;
-	border-radius: 0px;
+	border-radius: 10px !important;
 }
 
 /* NAVBAR (Den/Crossroads/Etc.) */
@@ -50,7 +50,7 @@ body {
 	background: rgba(XXXXXXXXXXX);
 	border-bottom: none;
 	color: #XXXXXXXXXXX;
-	border-radius: 0px
+	border-radius: 10px !important;
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
@@ -65,15 +65,15 @@ body {
 	background: #XXXXXXXXXXX !important;
 	border-bottom: none;
 	color: #XXXXXXXXXXX !important;
-	border-radius: 0px
+	border-radius: 10px !important;
 }
 
 /* BREADCRUMB (Home / Den) */
 
 .breadcrumb {
 	background: rgba(XXXXXXXXXXX) !important;
-        border: none;
-	border-radius: 0px
+        border: 0 ridge !important;
+	border-radius: 10px !important;
 }
 
 /* BREADCRUMB TEXT */
@@ -114,8 +114,8 @@ body {
 
 input.floatright, input.floatright:hover {
 	background: rgba(XXXXXXXXXXX) !important;
-        border: none !important;
-	border-radius: 0px;
+        border: 0 ridge !important;
+	border-radius: 10px !important;
 	color: #XXXXXXXXXXX !important;    
 }
 
@@ -123,8 +123,8 @@ input.floatright, input.floatright:hover {
 
 button.button, button.button:hover {
 	background: rgba(2, 40, 89, 0.95);
-        border: none !important;
-	border-radius: 0px;
+        border: 0 ridge !important;
+	border-radius: 10px !important;
         text-shadow: none !important;
 	color: #XXXXXXXXXXX !important
 }
@@ -135,9 +135,9 @@ button.button, button.button:hover {
 .alert-warning,
 .alert-danger {
 	background: rgba(XXXXXXXXXXX) !important;
-	border: none;
+	border: 0 ridge !important;
 	color: #XXXXXXXXXXX;
-	border-radius: 0px !important
+	border-radius: 10px !important;
 }
 
 /* BIGGEST HEADER ("___"'s DEN) */
@@ -178,23 +178,23 @@ h3 {
 .panel {
 	background: rgba(XXXXXXXXXXX) !important;
 	box-shadow: none !important;
-	border: none !important;
+	border: 0 ridge !important;
 	color: #XXXXXXXXXXX !important;
-	border-radius: 0px
+	border-radius: 10px !important;
 }
 
 /* ENERGY BAR BACKGROUND */
 .progress {
 	background: rgba(XXXXXXXXXXX);
 	color: #XXXXXXXXXXX !important;
-	border-radius: 0px !important
+	border-radius: 10px !important;
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
 	background: #XXXXXXXXXXX;
 	color: #XXXXXXXXXXX !important;
-	border-radius: 0px !important
+	border-radius: 10px !important;
 }
 
 /* ENERGY BAR TEXT */
@@ -207,19 +207,19 @@ h3 {
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
 	background: rgba(XXXXXXXXXXX) !important;
         color: #XXXXXXXXXXX !important;
-	border: none !important
+	border: 0 ridge !important;
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
 	background: rgba(XXXXXXXXXXX) !important;
         color: #XXXXXXXXXXX !important;
-	border: none !important
+	border: 0 ridge !important;
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
 	background: rgba(XXXXXXXXXXX) !important;
         color: #XXXXXXXXXXX !important;
-	border: none !important
+	border: 0 ridge !important;
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
@@ -227,13 +227,14 @@ h3 {
 }
 
 div#chatMessageContainer {
-	border: none !important;
+	border: 0 ridge !important;
+	border-radius: 10px !important;
 }
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	background: rgba(XXXXXXXXXXX) !important;
         color: #XXXXXXXXXXX !important;
-	border: none !important
+	border: 0 ridge !important;
 }
 
 
@@ -289,9 +290,9 @@ color: black;
 
 .table {
 	background: rgba(XXXXXXXXXXX);
-	border: none !important;
+	border: 0 ridge !important;
 	border-collapse: separate;
-	border-radius: 0px
+	border-radius: 10px !important;
 }
 
 
@@ -302,7 +303,7 @@ color: black;
 th {
 	background: #XXXXXXXXXXX !important;
 	color: #XXXXXXXXXXX !important;
-	border-radius: 0px
+	border-radius: 10px !important;
 }
 
 td.bottom a {
@@ -314,7 +315,7 @@ td.bottom a {
 .inner-table .left {
 	background: rgba(XXXXXXXXXXX) !important;
         color: #XXXXXXXXXXX;
-	border-radius: 0px
+	border-radius: 10px !important;
 }
 
 
@@ -322,11 +323,11 @@ td.bottom a {
 
 .inner-table .right {
 	background: rgba(XXXXXXXXXXX) !important;
-	border-radius: 0px !important
+	border-radius: 10px !important;
 }
 
 td.right {
-	border-radius: 0px !important
+	border-radius: 10px !important;
 }
 
 /* IGNORE */
@@ -339,8 +340,8 @@ td.right {
 .cave-grid,
 .mound-grid {
 	background: rgba(XXXXXXXXXXX) !important;
-	border: none !important;
-	border-radius: 0px !important
+	border: 0 ridge !important;
+	border-radius: 10px !important;
 }
 
 /* FEED ALL, PLAY ALL */
@@ -349,7 +350,7 @@ td.right {
 	background: rgba(XXXXXXXXXXX) !important;
 	color: #XXXXXXXXXXX !important;
 	border: 1px solid #XXXXXXXXXXX !important;
-	border-radius: 0px !important
+	border-radius: 10px !important;
 }
 
 /* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
@@ -357,15 +358,15 @@ td.right {
 .feature,
 div.left {
 	background: rgba(XXXXXXXXXXX);
-	border: none;
-	border-radius: 0px !important
+	border: 0 ridge !important;
+	border-radius: 10px !important;
 }
 
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 
 .table .left {
 	background: rgba(XXXXXXXXXXX);
-        border-radius: 0px
+        border-radius: 10px !important;
 }
 
 /* Color behind the content of the elements listed above */
@@ -374,8 +375,8 @@ input,
 select,
 textarea {
 	background: rgba(XXXXXXXXXXX) !important;
-	border: none !important;
-	border-radius: 0px !important;
+	border: 0 ridge !important;
+	border-radius: 10px !important;
 	color: #XXXXXXXXXXX !important;
 	box-shadow: none !important;
 	text-shadow: none !important
@@ -386,13 +387,13 @@ textarea {
 .item-header {
 	background: rgba(XXXXXXXXXXX) !important;
 	color: #XXXXXXXXXXX  !important;
-	border-radius: 0px !important;
+	border-radius: 10px !important;
 }
 
 .item {
 	background: rgba(XXXXXXXXXXX) !important;
-	border: none !important;
-	border-radius: 0px !important
+	border: 0 ridge !important;
+	border-radius: 10px !important;
 }
 
 /* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
