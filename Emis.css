@@ -593,8 +593,102 @@ table#player img {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('https://i.ibb.co/3mRNPvhZ/Space-Lioden-Logo.png')
+	content: url('https://i.ibb.co/mrK93Fv7/4930978faca115e7ea134d6c01050e72-ezgif-com-effects.gif')
 }
+/* beetle book adjustment code by tawnyCollar#251887. may be used in commissions, personal CSS, and free CSS. do NOT remove credit, or reupload claiming it as your own. */
+/* change beetle book image */
+    img[src$="den_ancestors.png"] {
+	background:none!important; 
+       content:url('https://i.ibb.co/7dkzcGfd/Dynasty.webp')!important;
+        transform: scaleX(-1);
+}
+img[src$="den_ancestorsfem.png"] {
+	background:none!important; 
+    content:url('https://i.ibb.co/7dkzcGfd/Dynasty.webp')!important;
+
+}
+img[src$="den_achievements.png"] {
+	background:none!important; 
+    content:url('https://i.ibb.co/7dkzcGfd/Dynasty.webp')!important;
+    transform: scaleX(-1);
+}
+img[src$="den_showcase.png"] {
+	background:none!important; 
+       content:url('https://i.ibb.co/7dkzcGfd/Dynasty.webp')!important;
+	
+	
+}
+img[src$="den_beetlebook.png"] {
+	background:none!important; 
+       content:url('https://i.ibb.co/7dkzcGfd/Dynasty.webp');
+    transform: scaleX(-1);
+}
+
+/* fits all elements on one line */
+body > div.container.main > div > div.col-md-9.col-xs-12 > center {
+    flex-wrap: nowrap; 
+    justify-content: space-between; 
+}
+.dynastylist {
+    flex: 1 1 auto;
+    max-width: 20%; 
+    box-sizing: border-box; 
+}
+/* resizes all images to fit the new layout */
+.dynastylist img {
+    height: 100%!important;
+	 width: 100%!important;
+	border-radius: 10px;
+}
+/* TIME DAY */
+img[src$="day.png"] {
+    content:url('https://i.ibb.co/cSMXth4d/picmix-com-530556.gif')!important;
+    width:50px!important;
+	margin-left:-40px;
+}
+/* TIME NIGHT */
+img[src$="night.png"] {
+    content:url('https://i.ibb.co/TMRvTz8k/picmix-com-526403.gif')!important;
+    width:50px!important;
+	margin-left:-40px;
+}
+    
+    /* DRY SEASON */
+img[src$="icon-season-dry.png"] {
+    content:url('https://i.ibb.co/wNP4C3Tb/picmix-com-1026719.gif')!important;
+    width:50px!important;
+}
+    /* WET SEASON */
+img[src$="icon-season-wet.png"] {
+    content:url('https://i.ibb.co/qQC1My3/picmix-com-2498175.gif')!important;
+    width:50px!important;
+}
+    
+/* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+/* MEMBER ONLINE */
+.member-online {
+    background: rgba(207,207,207,0);
+    content:url('https://i.ibb.co/VcqZM6ft/picmix-com-2611271.gif')!important;
+	border-radius: 0px;
+	  width:50px!important;
+    height:50px;
+	margin:-4px;
+	margin-left:10px;
+}
+/* MEMBER OFFLINE */
+.member-offline {
+    background: rgba(207,207,207,0);
+    content:url('https://i.ibb.co/gb9Nmm7x/picmix-com-2611271-ezgif-com-effects.gif')!important;
+	border-radius: 0px;
+    width:50px!important;
+    height:50px;
+	margin:-10px;
+	margin-left:10px;
+	filter: saturate(0%);
+}    
 
 /* CAVE / MOUND IMAGES */
 
@@ -1946,4 +2040,5 @@ width: 20px !important;
     box-shadow: 0 0 2vw 0.4vw #07B0F2;
   }
 }
+
 
