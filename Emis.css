@@ -692,39 +692,66 @@ Please do not remove credit
 
 /* CAVE / MOUND IMAGES */
 
-div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('https://i.ibb.co/KjRrNqYQ/space9-ezgif-com-resize.webp') !important
+   /* all caves image*/
+div.cave-grid>img {
+	padding-left: 0%;
+	height: 140px;	
+	width: 260px;
+	opacity: 1;
+	border: 0px ridge;
+	overflow: hidden;
+	border: 0px;
+	border-radius: 10px !important;
+	transition: 1.5s;
 }
-
+div.cave-grid>img:hover{
+	opacity: 0.8;
+	overflow: hidden;
+	transition: 0.8s !important;
+}
+/*Unsorted Lions*/
+div.cave-grid>img[src$="nestingbanner.png"] {
+	content: url('https://i.ibb.co/BKT435n3/Galaxy-Nesting-ezgif-com-resize.webp')!important;
+}
+/* unsorted cave */
+div.cave-grid>img[src$="unsortedlionsbanner.png"] {
+	content: url('https://i.ibb.co/p6K8VLhw/Galaxy-Unsorted-ezgif-com-resize.webp')!important;
+}
+/* pride overview cave */
+div.cave-grid>img[src$="prideoverviewbanner.png"] {
+	content: url('https://i.ibb.co/hJTzbtY6/Galazy-Overview-ezgif-com-resize.webp')!important;
+}
+    
 a[href$="482237"]>div.cave-grid>img {
-	content: url('https://i.ibb.co/5yhHL0y/Space4-ezgif-com-resize.webp') !important
+	content: url('https://i.ibb.co/vvJBh8bV/Galaxy-Home482237-ezgif-com-resize.webp') !important
 }
 
 a[href$="486032"]>div.cave-grid>img {
-	content: url('https://i.ibb.co/Kp9hsDtw/space3-ezgif-com-resize.webp') !important
+	content: url('https://i.ibb.co/zh47vDdw/Galaxy-Safe486032-ezgif-com-resize.webp') !important
 }
-
-a[href$="lionoverview.php?id=540409"]>div.cave-grid>img /* Pride Overview */ {
-	content: url('https://i.ibb.co/vvL1B35p/space11-ezgif-com-resize.webp') !important
+div.cave-grid>img[src$="caveunused.jpg"] {
+	content: url('https://i.ibb.co/4LwTKkT/Galaxy-Empty-ezgif-com-resize.webp')!important;
 }
-
-a[href$="unsorted.php?id=540409"]>div.cave-grid>img /* Unsorted */ {
-	content: url('https://i.ibb.co/3mQfFp0B/space6-ezgif-com-resize.webp') !important
+/* da mounds */
+.mound-grid img {
+	background: url('https://i.ibb.co/4w8FXTsG/Galaxy-Mounds-ezgif-com-resize.webp');
+	background-size:cover;
+	width: 100%;
+	height: 100%;
+	padding-top: 70%;
+	padding-right: 100%;
+	max-height:150px;
+	border-radius: 10px !important;
+	opacity: 1;
+	transition: 1.5s;
 }
-
-img[src$="caveunused.jpg"] {
-content: url('https://i.ibb.co/cSVfqs5X/space7-ezgif-com-resize.webp') !important;
-}
+.mound-grid img:hover{
+	opacity: 0.8;
+	transition: 0.8s !important;
+}    
 
 img[src$="default.png"] {
-content: url("https://static.lioden.com/images/dynamic/backgrounds/swirlingsky.png"); }
-
-.mound-grid img /* Mound(s) */ {
-	background: url("https://i.ibb.co/nqpzwpbM/space10-ezgif-com-resize-1.webp");
-	width: 0;
-	height: 0;
-	padding-top: 80px;
-	padding-right: 130px
+content: url("https://static.lioden.com/images/dynamic/backgrounds/swirlingsky.png"); 
 }
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
@@ -2040,5 +2067,6 @@ width: 20px !important;
     box-shadow: 0 0 2vw 0.4vw #07B0F2;
   }
 }
+
 
 
