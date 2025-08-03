@@ -7,22 +7,22 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 
 /* FONT (From Google Fonts) */
 
-@import url('XXXXXXXXXXXXXXXXXXXX');
+@import url('XXXXXX');
 
 /* BACKGROUND */
 
 body {
-	background: url('XXXXXXXXXXX') center center fixed;
+	background: url('XXXXXX') center center fixed;
 	background-size: 100%;
-	font-family:  'XXXXXXXXXXX';
-	color: #000000
+	font-family: 'XXXXXX'!important;
+	color: #XXXXXX
 }
 
 /* MAIN PANEL */
 
 /* RIGHT SIDE */
 .container.main {
-	background: rgba(XXXXXXXXXXX);
+	background: rgba(XXXXXX);
 	border: 0 ridge !important;
 	box-shadow: none;
 	border-radius: 10px !important;
@@ -37,41 +37,41 @@ body {
 /* TOPBAR ("Welcome back, ___") */
 
 .topbar {
-	background: #XXXXXXXXXXX;
+	background: #XXXXXX;
 	border: 0 ridge !important;
 	border-top: none;
-	color: #d7e9ff;
+	color: #XXXXXX;
 	border-radius: 10px !important;
 }
 
 /* NAVBAR (Den/Crossroads/Etc.) */
 
 .navbar {
-	background: rgba(XXXXXXXXXXX);
+	background: #XXXXXX;
 	border-bottom: none;
-	color: #XXXXXXXXXXX;
+	color: #XXXXXX;
 	border-radius: 10px !important;
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
 
 .navbar li a {
-	color: #XXXXXXXXXXX !important
+	color: #XXXXXX !important;
 }
 
 /* NAVBAR BUTTON HOVER */
 
 .navbar li a:hover {
-	background: #XXXXXXXXXXX !important;
+	background: rgba(XXXXXX) !important;
 	border-bottom: none;
-	color: #XXXXXXXXXXX !important;
+	color: #XXXXXX !important;
 	border-radius: 10px !important;
 }
 
 /* BREADCRUMB (Home / Den) */
 
 .breadcrumb {
-	background: rgba(XXXXXXXXXXX) !important;
+	background: rgba(XXXXXX) !important;
         border: 0 ridge !important;
 	border-radius: 10px !important;
 }
@@ -79,14 +79,14 @@ body {
 /* BREADCRUMB TEXT */
 
 .breadcrumb .active {
-	color: #XXXXXXXXXXX
+	color: #XXXXXX
 }
 
 /* CSS CREDIT */
 
 .breadcrumb::after {
         content: "Template by Katie (#106445)";
-        color: #XXXXXXXXXXX;
+        color: #XXXXXX;
         position: absolute;
         right: 13%; /* (This may need adjusting) */
         z-index: 100
@@ -113,20 +113,20 @@ body {
 /* BOOKMARK BUTTON */
 
 input.floatright, input.floatright:hover {
-	background: rgba(XXXXXXXXXXX) !important;
+	background: #XXXXXX !important;
         border: 0 ridge !important;
 	border-radius: 10px !important;
-	color: #XXXXXXXXXXX !important;    
+	color: #XXXXXX !important;    
 }
 
 /* SWITCH ACCOUNT BUTTON */
 
 button.button, button.button:hover {
-	background: rgba(2, 40, 89, 0.95);
+	background: #XXXXXX;
         border: 0 ridge !important;
 	border-radius: 10px !important;
         text-shadow: none !important;
-	color: #XXXXXXXXXXX !important
+	color: #XXXXXX !important
 }
 
 /* ALERTS (ie. "Your lionesses have returned from hunting!") */
@@ -134,26 +134,27 @@ button.button, button.button:hover {
 .alert,
 .alert-warning,
 .alert-danger {
-	background: rgba(XXXXXXXXXXX) !important;
+	background: #XXXXXX !important;
 	border: 0 ridge !important;
-	color: #XXXXXXXXXXX;
+	color: #XXXXXX;
 	border-radius: 10px !important;
 }
 
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: #XXXXXXXXXXX;
-	font-size: 90px;
+	color: #C00707;
+    text-shadow: 1px 0px 8px rgba(XXXXXX);
+	font-size: 40px;
 	text-align: center;
-        font-family:  'XXXXXXXXXXX'
+        font-family: 'XXXXXX'!important;
 }
 
 
 /* MEDIUM HEADER */
 
 h2 {
-	color: #XXXXXXXXXXX;
+	color: #XXXXXX;
 	font-size: 24px;
 	text-align: center
 }
@@ -162,68 +163,68 @@ h2 {
 /* SMALL HEADER */
 
 h3 {
-	color: #XXXXXXXXXXX !important;
+	color: #XXXXXX !important;
 	font-size: 14px !important
 }
 
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: #XXXXXXXXXXX !important;
+	color: #XXXXXX !important;
         font-size: 26px !important;
         font-family: 'Knewave'
 }
 
 /* RIGHT SIDE PANELS */
 .panel {
-	background: rgba(XXXXXXXXXXX) !important;
+	background: rgba(XXXXXX) !important;
 	box-shadow: none !important;
 	border: 0 ridge !important;
-	color: #XXXXXXXXXXX !important;
+	color: #XXXXXX !important;
 	border-radius: 10px !important;
 }
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: rgba(XXXXXXXXXXX);
-	color: #XXXXXXXXXXX !important;
+	background: #XXXXXX;
+	color: #XXXXXX !important;
 	border-radius: 10px !important;
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-	background: #XXXXXXXXXXX;
-	color: #XXXXXXXXXXX !important;
+	background: #XXXXXX;
+	color: #XXXXXX !important;
 	border-radius: 10px !important;
 }
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #XXXXXXXXXXX !important
+	color: #XXXXXX !important
 }
 
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-	background: rgba(XXXXXXXXXXX) !important;
-        color: #XXXXXXXXXXX !important;
+	background: rgba(XXXXXX) !important;
+        color: #XXXXXX !important;
 	border: 0 ridge !important;
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
-	background: rgba(XXXXXXXXXXX) !important;
-        color: #XXXXXXXXXXX !important;
+	background: rgba(XXXXXX) !important;
+        color: #XXXXXX !important;
 	border: 0 ridge !important;
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
-	background: rgba(XXXXXXXXXXX) !important;
-        color: #XXXXXXXXXXX !important;
+	background: #XXXXXX !important;
+        color: #XXXXXX !important;
 	border: 0 ridge !important;
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
-	color: #XXXXXXXXXXX !important;
+	color: #XXXXXX !important;
 }
 
 div#chatMessageContainer {
@@ -232,8 +233,8 @@ div#chatMessageContainer {
 }
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
-	background: rgba(XXXXXXXXXXX) !important;
-        color: #XXXXXXXXXXX !important;
+	background: #XXXXXX !important;
+        color: #XXXXXX !important;
 	border: 0 ridge !important;
 }
 
@@ -242,8 +243,8 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 /*Comment Box by Hok-Z #41458 / #170947*/
 /*-------------------------*/
 #commentBox {
-background: rgba(XXXXXXXXXXX);
-border: 2px #XXXXXXXXXXX !important;
+background: rgba(XXXXXX);
+border: 2px #XXXXXX !important;
 height: 280px !important;
 margin-top: 40px;
 overflow: auto !important;
@@ -252,33 +253,33 @@ border-top-right-radius: 0px !important;
 }
 
 .comment {
-background: rgba(XXXXXXXXXXX) !important;
-border-bottom: 1px #XXXXXXXXXXX;
+background: rgba(XXXXXX) !important;
+border-bottom: 1px #XXXXXX;
 font-weight: bold;
-color: #XXXXXXXXXXX;
+color: #XXXXXX;
 }
 
-.comment a {color: #XXXXXXXXXXX;}
+.comment a {color: #XXXXXX;}
 
-.comment .text-muted {color: #XXXXXXXXXXX;}
+.comment .text-muted {color: #XXXXXX;}
 
 #makeComment {
-background: #XXXXXXXXXXX !important;
-border: 2px #XXXXXXXXXXX;
+background: #XXXXXX !important;
+border: 2px #XXXXXX;
 border-radius: 10px;
 }
 
 #comment {
-background: rgba(XXXXXXXXXXX) !important;
-color: #XXXXXXXXXXX !important;
+background: rgba(XXXXXX) !important;
+color: #XXXXXX !important;
 }
 
 input[type="button"].bad {
-background: #XXXXXXXXXXX !important;
+background: #XXXXXX !important;
 }
 
 input#postComment {
-background: #XXXXXXXXXXX !important;
+background: #XXXXXX !important;
 color: black;
 }
 
@@ -289,7 +290,7 @@ color: black;
 /* PANEL BACKGROUND COLOR */
 
 .table {
-	background: rgba(XXXXXXXXXXX);
+	background: rgba(XXXXXX);
 	border: 0 ridge !important;
 	border-collapse: separate;
 	border-radius: 10px !important;
@@ -301,8 +302,8 @@ color: black;
 .top,
 .bottom,
 th {
-	background: #XXXXXXXXXXX !important;
-	color: #XXXXXXXXXXX !important;
+	background: #XXXXXX !important;
+	color: #XXXXXX !important;
 	border-radius: 10px !important;
 }
 
@@ -313,8 +314,8 @@ td.bottom a {
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 
 .inner-table .left {
-	background: rgba(XXXXXXXXXXX) !important;
-        color: #XXXXXXXXXXX;
+	background: #XXXXXX !important;
+        color: #XXXXXX;
 	border-radius: 10px !important;
 }
 
@@ -322,7 +323,7 @@ td.bottom a {
 /* Color behind the number of all of the things above */
 
 .inner-table .right {
-	background: rgba(XXXXXXXXXXX) !important;
+	background: #XXXXXX !important;
 	border-radius: 10px !important;
 }
 
@@ -339,7 +340,7 @@ td.right {
 
 .cave-grid,
 .mound-grid {
-	background: rgba(XXXXXXXXXXX) !important;
+	background: #XXXXXX !important;
 	border: 0 ridge !important;
 	border-radius: 10px !important;
 }
@@ -347,9 +348,9 @@ td.right {
 /* FEED ALL, PLAY ALL */
 
 .feature {
-	background: rgba(XXXXXXXXXXX) !important;
-	color: #XXXXXXXXXXX !important;
-	border: 1px solid #XXXXXXXXXXX !important;
+	background: #XXXXXX !important;
+	color: #XXXXXX !important;
+	border: 1px solid #XXXXXX !important;
 	border-radius: 10px !important;
 }
 
@@ -357,7 +358,7 @@ td.right {
 
 .feature,
 div.left {
-	background: rgba(XXXXXXXXXXX);
+	background: #XXXXXX;
 	border: 0 ridge !important;
 	border-radius: 10px !important;
 }
@@ -365,7 +366,7 @@ div.left {
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 
 .table .left {
-	background: rgba(XXXXXXXXXXX);
+	background: #XXXXXX;
         border-radius: 10px !important;
 }
 
@@ -374,10 +375,10 @@ div.left {
 input,
 select,
 textarea {
-	background: rgba(XXXXXXXXXXX) !important;
+	background: #XXXXXX !important;
 	border: 0 ridge !important;
 	border-radius: 10px !important;
-	color: #XXXXXXXXXXX !important;
+	color: #XXXXXX !important;
 	box-shadow: none !important;
 	text-shadow: none !important
 }
@@ -385,13 +386,13 @@ textarea {
 /* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
 
 .item-header {
-	background: rgba(XXXXXXXXXXX) !important;
-	color: #XXXXXXXXXXX  !important;
+	background: #XXXXXX !important;
+	color: #XXXXXX  !important;
 	border-radius: 10px !important;
 }
 
 .item {
-	background: rgba(XXXXXXXXXXX) !important;
+	background: #XXXXXX !important;
 	border: 0 ridge !important;
 	border-radius: 10px !important;
 }
@@ -399,17 +400,17 @@ textarea {
 /* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
 
 div.slider.round /* Background */ {
-	background: #XXXXXXXXXXX !important
+	background: #XXXXXX !important
 }
 
 div.slider.round::before /* Circle Part */ {
-	background: #XXXXXXXXXXX !important
+	background: #XXXXXX !important
 }
 
 /* Copyright, Terms of Service, CoC, etc. */
 
 div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
-        color: #000000 !important;
+        color: #XXXXXX !important;
         text-shadow: none !important
 }
 
@@ -417,13 +418,14 @@ div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.containe
 
 a:link,
 a:visited {
-	color: #XXXXXXXXXXX !important
+	color: #XXXXXX !important
 }
 
 /* LINK HOVER COLOR */
 
 a:hover {
-	color: #XXXXXXXXXXX !important
+	color: #XXXXXX !important;
+     text-shadow: 1px 0px 8px rgba(XXXXXX);
 }
 
 
@@ -441,8 +443,8 @@ a:hover {
 
 .smallbox {
 	float: left;
-	background: rgba(XXXXXXXXXXX);
-	color: #XXXXXXXXXXX;
+	background: rgba(XXXXXX);
+	color: #XXXXXX;
 	padding: 10px;
 	border: none;
 	border-radius: 0px;
@@ -454,8 +456,8 @@ a:hover {
 
 .mediumbox {
 	float: left;
-	background: rgba(XXXXXXXXXXX);
-	color: #XXXXXXXXXXX;
+	background: rgba(XXXXXX);
+	color: #XXXXXX;
 	padding: 10px;
 	border: none;
 	border-radius: 0px;
@@ -467,8 +469,8 @@ a:hover {
 
 .largebox {
 	float: left;
-	background: rgba(XXXXXXXXXXX);
-	color: #XXXXXXXXXXX;
+	background: rgba(XXXXXX);
+	color: #XXXXXX;
 	padding: 10px;
 	border: none;
 	border-radius: 0px;
@@ -482,8 +484,8 @@ a:hover {
 
 .smallhoverbox {
 	float: left;
-	background: rgba(XXXXXXXXXXX);
-	color: #XXXXXXXXXXX;
+	background: rgba(XXXXXX);
+	color: #XXXXXX;
 	padding: 10px;
 	border: none;
 	border-radius: 0px;
@@ -501,8 +503,8 @@ a:hover {
 
 .mediumhoverbox {
 	float: left;
-	background: rgba(XXXXXXXXXXX);
-	color: #XXXXXXXXXXX;
+	background: rgba(XXXXXX);
+	color: #XXXXXX;
 	padding: 10px;
 	border: none;
 	border-radius: 0px;
@@ -520,8 +522,8 @@ a:hover {
 
 .largehoverbox {
 	float: left;
-	background: rgba(XXXXXXXXXXX);
-	color: #XXXXXXXXXXX;
+	background: rgba(XXXXXX);
+	color: #XXXXXX;
 	padding: 10px;
 	border: none;
 	border-radius: 0px;
@@ -549,15 +551,15 @@ a:hover {
 /* BACKGROUND */
 
 ::-webkit-scrollbar-track {
-	background: #XXXXXXXXXXX
+	background: #XXXXXX
 }
 
 
 /* "THUMB" */
 
 ::-webkit-scrollbar-thumb {
-	background: #XXXXXXXXXXX;
-	border-radius: 0px
+	background: #XXXXXX;
+	border-radius: 10px
 }
 
 
@@ -590,46 +592,119 @@ table#player img {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('XXXXXXXXXXX')
+	content: url('XXXXXX') !important;
 }
 
-/* CAVE / MOUND IMAGES */
-
-div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('XXXXXXXXXXX') !important
+ /* all caves image*/
+div.cave-grid>img {
+	padding-left: 0%;
+	height: 140px;	
+	width: 260px;
+	opacity: 1;
+	border: 0px ridge;
+	overflow: hidden;
+	border-radius: 10px !important;
+	transition: 1.5s;
 }
-
-a[href$="XXXXXXXXXXX"]>div.cave-grid>img {
-	content: url('XXXXXXXXXXX') !important
+div.cave-grid>img:hover{
+	filter: brightness(60%);
+	overflow: hidden;
+	transition: 0.8s !important;
 }
-
-a[href$="XXXXXXXXXXX"]>div.cave-grid>img {
-	content: url('XXXXXXXXXXX') !important
+/*preg Lions*/
+div.cave-grid>img[src$="nestingbanner.png"] {
+	content: url('XXXXXX')!important;
 }
-
-a[href$="lionoverview.php?id=XXXXXXXXXXX"]>div.cave-grid>img /* Pride Overview */ {
-	content: url('XXXXXXXXXXX') !important
+/* unsorted cave */
+div.cave-grid>img[src$="unsortedlionsbanner.png"] {
+	content: url('XXXXXX')!important;
 }
-
-a[href$="unsorted.php?id=XXXXXXXXXXX"]>div.cave-grid>img /* Unsorted */ {
-	content: url('XXXXXXXXXXX') !important
+/* pride overview cave */
+div.cave-grid>img[src$="prideoverviewbanner.png"] {
+	content: url('XXXXXX')!important;
 }
-
-img[src$="caveunused.jpg"] {
-content: url('XXXXXXXXXXX') !important;
+ /* Prized possessions */   
+a[href$="481049"]>div.cave-grid>img {
+	content: url('XXXXXX') !important
 }
+/* project primal */
+a[href$="492188"]>div.cave-grid>img {
+	content: url('XXXXXX') !important
+}
+div.cave-grid>img[src$="caveunused.jpg"] {
+	content: url('XXXXXX')!important;
+}
+/* da mounds */
+.mound-grid img {
+	background: url('XXXXXX');
+	background-size:cover;
+	width: 100%;
+	height: 100%;
+	padding-top: 70%;
+	padding-right: 100%;
+	max-height:150px;
+	border-radius: 10px !important;
+	opacity: 1;
+	transition: 1.5s;
+}
+.mound-grid img:hover{
+	filter: brightness(50%);
+	transition: 0.8s !important;
+}    
 
 img[src$="default.png"] {
-content: url('XXXXXXXXXXX'); }
+content: url("XXXXXX"); 
+}
+    
+/* beetle book adjustment code by tawnyCollar#251887. may be used in commissions, personal CSS, and free CSS. do NOT remove credit, or reupload claiming it as your own. */
+/* change beetle book image */
+    img[src$="den_ancestors.png"] {
+	background:none!important; 
+       content:url('XXXXXX')!important;
+        transform: scaleX(-1);
+}
+img[src$="den_ancestorsfem.png"] {
+	background:none!important; 
+    content:url('XXXXXX')!important;
 
-.mound-grid img /* Mound(s) */ {
-	background: url("XXXXXXXXXXX");
-	width: 0;
-	height: 0;
-	padding-top: 80px;
-	padding-right: 130px
+}
+img[src$="den_achievements.png"] {
+	background:none!important; 
+    content:url('XXXXXX')!important;
+    transform: scaleX(-1);
+}
+img[src$="den_showcase.png"] {
+	background:none!important; 
+       content:url('XXXXXX')!important;
+	
+	
+}
+img[src$="den_beetlebook.png"] {
+	background:none!important; 
+       content:url('XXXXXX');
+    transform: scaleX(-1);
 }
 
+/* fits all elements on one line */
+body > div.container.main > div > div.col-md-9.col-xs-12 > center {
+    flex-wrap: nowrap; 
+    justify-content: space-between; 
+}
+.dynastylist {
+    flex: 1 1 auto;
+    max-width: 20%; 
+    box-sizing: border-box; 
+}
+/* resizes all images to fit the new layout */
+.dynastylist img {
+    height: 100%!important;
+	 width: 100%!important;
+	border-radius: 10px;
+}
+.dynastylist img:hover{
+	filter: brightness(50%);
+	transition: 0.8s !important;
+}            
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
 @media only screen and (max-width: 767px) {
@@ -638,9 +713,6 @@ content: url('XXXXXXXXXXX'); }
         }
 }
 
-@media only screen and (max-width: 991px) and (min-width: 768px) {
-	display: block !important;
-}
 
 @media only screen and (min-width: 1200px) {
 		div.quote {
@@ -648,11 +720,11 @@ content: url('XXXXXXXXXXX'); }
 		}
 	}
 img[src$="icon-beetle-gold.png"] {
-content: url("XXXXXXXXXXX") !important;
+content: url("XXXXXX") !important;
 width: 20px !important;
 }
 
 img[src$="icon-beetle-silver.png"] {
-content: url("XXXXXXXXXXX") !important;
+content: url("XXXXXX") !important;
 width: 20px !important;
-}
+} 
