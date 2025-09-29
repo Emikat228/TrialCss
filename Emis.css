@@ -158,7 +158,7 @@ button.button, button.button:hover {
 
 h1 {
 	color: #0487FB;
-	font-size: 50px;
+	font-size: 40px;
 	text-align: center;
         font-family:  'Sour Gummy', sans-serif;
 }
@@ -783,7 +783,7 @@ div.cave-grid>img[src$="caveunused.jpg"] {
 }    
 
 img[src$="default.png"] {
-content: url("https://static.lioden.com/images/dynamic/backgrounds/swirlingsky.png"); 
+content: url("https://i.ibb.co/qFhK4Kyk/Orion-Cave-Bg.png"); 
 }
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
@@ -2099,3 +2099,4 @@ width: 20px !important;
     box-shadow: 0 0 2vw 0.4vw #07B0F2;
   }
 }
+
