@@ -790,10 +790,11 @@ content: url("https://i.ibb.co/4w8FXTsG/Galaxy-Mounds-ezgif-com-resize.webp") !i
 }
 a[href="mound.php?id=244897"] img {
 content: url("https://i.ibb.co/4w8FXTsG/Galaxy-Mounds-ezgif-com-resize.webp") !important;
-	transform: scaleX(-1);
+	
 }
 img[src$="addbeetlemound.png"] {
 content: url("https://i.ibb.co/4w8FXTsG/Galaxy-Mounds-ezgif-com-resize.webp") !important;
+transform: scaleX(-1);
 }
 .mound-grid img:hover{
 	filter: brightness(50%);
@@ -2117,4 +2118,5 @@ width: 20px !important;
     box-shadow: 0 0 2vw 0.4vw #07B0F2;
   }
 }
+
 
